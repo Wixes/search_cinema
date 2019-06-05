@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d001fff;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    /*background-color: rgba(134, 34, 141, 0.3);*/
+    background: rgba(133,35,140,0.4);
+    background: -moz-linear-gradient(left, rgba(133,35,140,0.4) 0%, rgba(51,0,80,0.5) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(133,35,140,0.5)), color-stop(100%, rgba(51,0,80,0.1)));
+    background: -webkit-linear-gradient(left, rgba(133,35,140,0.4) 0%, rgba(51,0,80,0.5) 100%);
+    background: -o-linear-gradient(left, rgba(133,35,140,0.4) 0%, rgba(51,0,80,0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(133,35,140,0.4) 0%, rgba(51,0,80,0.5) 100%);
+    background: linear-gradient(to right, rgba(133,35,140,0.4) 0%, rgba(51,0,80,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85238c', endColorstr='#330050', GradientType=1 );
+    height: 110px;
+    padding: 0 20px 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #130014ff;
+    height: 120px;
+    font-size: 1.6em;
+    color: #86228dff;
+    padding: 0 60px;
+}
+
+.menu {
+    font-size: 1.2em;
+    max-width: 350px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > a:first-child {
+    text-decoration: underline;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #cb91faff;
+}
+
+.content {
+    padding: 0 20px 0 20px;
+}
+
+.top-img {
+    margin: 70px 0 0 0;
+    width: 100%;
+    height: 200px;
+    background-image: url("./img/avengers.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+
+.main-content {
+    margin: 80px 0 0 0;
+}
+
+.latest-films-text {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-image: url("./img/latest.png");
+}
+
+.latest-films-text-capture {
+    margin: 0 0 0 20px;
+    width: 106px;
+    height: 27px;
+    background-image: url("./img/latest_text.png");
+}
+
+.latest-films {
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    height: 230px;
+    background-color: #29174cfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.films {
+    width: 170px;
+    height: 200px;
+    border: 3px solid white;
+}
+
+.movie-1 {
+    background-image: url("./img/film_1.jpeg");
+    background-size: cover;
+}
+
+.movie-2 {
+    background-image: url("./img/film_2.jpeg");
+    background-size: cover;
+}
+
+.movie-3 {
+    background-image: url("./img/film_3.jpeg");
+    background-size: cover;
+}
+
+.movie-4 {
+    background-image: url("./img/film_4.jpeg");
+    background-size: cover;
+}
+
+.movie-5 {
+    background-image: url("./img/film_5.jpeg");
+    background-size: 100% 100%;
+}
+
+.main-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px auto 100px auto;
+    width: 540px;
+    height: 90px;
+    background: rgba(56,24,60,1);
+    background: -moz-linear-gradient(left, rgba(56,24,60,1) 0%, rgba(107,24,60,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(56,24,60,1) 0%, rgba(107,24,60,1) 100%);
+    background: -o-linear-gradient(left, rgba(56,24,60,1) 0%, rgba(107,24,60,1) 100%);
+    background: -ms-linear-gradient(left, rgba(56,24,60,1) 0%, rgba(107,24,60,1) 100%);
+    background: linear-gradient(to right, rgba(56,24,60,1) 0%, rgba(107,24,60,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38183c', endColorstr='#6b183c', GradientType=1 );
+    border-radius: 50px;
+}
+
+.main-search-block-2 {
+    width: 520px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #3e183c;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+.main-search-block-2 > input {
+    margin: 0 0 0 20px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.main-search-block-2 > input::placeholder {
+    color: #cb91faff;
+    font-size: 1.5em;
+}
+
+
+
+@media only screen and (min-width:900px) {
+    .menu {
+        margin: 0 100px 0 0;
+    }
+    .film-content-all {
+        margin: 100px 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    
+    .film-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 80%;
+        height: 580px;
+        background-color: #ccccccfe;
+        border-radius: 25px;
+    }
+    
+    .film-info-inside {
+        width: 93%;
+        height: 90%;
+        background-color: white;
+        border-radius: 25px;
+    }
+
+    .film-info-f-margin{
+        margin: 30px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .film-name {
+        color: #c87137ff;
+        margin: 0 0 5px 0;
+        font-size: 1.5em;
+    }
+
+    .film-pic > img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .film-pic-desc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+
+    .film-desc-full {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.2em;
+    }
+
+    .color-grey {
+        background-color: #ccccccfe;
+    }
+
+    .film-year, .film-slogan, .film-country, .film-budget,
+    .film-time, .film-premiere {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+    }
+
+    .film-year-value, .film-slogan-value, .film-country-value,
+     .film-budget-value, .film-time-value, .film-premiere-value {
+        width: 80%;
+    }
+
+    .donate-content-all {
+        margin: 200px 0 0 0;
+        width: 100%;
+        min-height: 600px;
+    }
+
+    .donate-content-inside {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .donate-content-pic {
+        width: 35%;
+    }
+
+    .donate-content-pic > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .donate-content-text {
+        width: 50%;
+        color: white;
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leave-comment {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 230px;
+        background-color: #ccccccfe;
+        border-radius: 25px;
+        margin: 60px;
+    }
+
+    .leave-comment-inside {
+        width: 90%;
+        height: 90%;
+    }
+
+    .leave-comment-static {
+        font-size: 1.3em;
+    }
+    
+    .leave-comment-write {
+        margin: 15px 0 0 0;
+    }
+
+    .leave-comment-write > textarea {
+        font-size: 1.5em;
+    }
+
+    .leave-comment-btns {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .leave-comment-button-good {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: #5ad600ff;
+        width: 15%;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .leave-comment-button-bad {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: #bd0000ff;
+        width: 15%;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .leave-comment-button-sbm {
+        width: 65%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .leave-comment-button-submit {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: #f9f9f9ff;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .comments-all {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        min-height: 230px;
+        background-color: #ccccccfe;
+        border-radius: 25px;
+        margin: 60px;        
+    }
+     
+    .comments-all-inside {
+        width: 90%;
+    }
+
+    .comments-all-static {
+        font-size: 1.9em;
+    }
+
+    .comments-all-comment {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        height: 140px;
+        background-color: #f9f9f9ff;
+        border: 2px solid black;
+        margin: 0 0 20px 0;
+    }
+
+    .comment-name-recommend {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        border-bottom: 2px solid black;
+    }
+
+    .comment-name {
+        font-size: 1.7em;
+        padding: 5px;
+    }
+
+    .comment-recommend {
+        font-size: 1.4em;
+        padding: 5px 5px 5px 5px;
+        
+    }
+
+    .recommend-good {
+        color: #5ad600ff;
+    }
+
+    .recommend-bad {
+        color: #aa0000ff;
+    }
+
+    .comment-block-text {
+        width: 95%;
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        font-size: 1.2em;
+        padding: 5px 0 0 0;
+    }
+
+}
+

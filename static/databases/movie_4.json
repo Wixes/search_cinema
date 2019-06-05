@@ -1,0 +1,40 @@
+{
+    "path": "/static/img/film_4.jpeg",
+    "name": "Громкая связь",
+    "slogan": "-",
+    "year": "2018",
+    "country": "Россия",
+    "genre": "комедия",
+    "budget": "8 559 045 $",
+    "time": "96 мин / 01:36",
+    "premiere": "14 февраля 2019",
+    "description1": "Семеро друзей, собравшись в загородном доме, в шутку начинают игру — участники должны зачитывать вслух все приходящие им сообщения,",
+    "description2": " а на звонки отвечать только по громкой связи. Они и представить себе не могут, какие удивительные откровения им предстоит сделать друг о друге.",
+    "comments": {
+        "comment_1": {
+            "name": "Monitor",
+            "recommend": false,
+            "commentary": "Нечего добавить, пусть тут будет просто диалог:"
+        },
+        "comment_2": {
+            "name": "Sistemnik",
+            "recommend": false,
+            "commentary": "Привет, как дела?"
+        },
+        "comment_3": {
+            "name": "Klava",
+            "recommend": true,
+            "commentary": "Привет, нормально. Ты как?"
+        },
+        "comment_4": {
+            "name": "Mishka",
+            "recommend": true,
+            "commentary": "Да пойдет"
+        },
+        "comment_5": {
+            "name": "Kolonka",
+            "recommend": true,
+            "commentary": "*Конец типичной переписки*"
+        }
+    }
+}

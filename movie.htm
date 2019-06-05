@@ -1,0 +1,152 @@
+<div class="film-content-all" ng-controller="filmController">
+    <div class="film-info">
+        <div class="film-info-inside">
+            <div class="film-info-f-margin">
+                <div class="film-name">
+                    {{movie.name}}
+                </div>
+                <div class="film-pic-desc">
+                    <div class="film-pic">
+                        <img src="{{movie.path}}" alt="{{movie.name}}">
+                    </div>
+                    <div class="film-desc-full">
+                        <div class="film-year color-grey">
+                            <div class="film-year-static">
+                                Год
+                            </div>
+                            <div class="film-year-value">
+                                {{movie.year}}
+                            </div>
+                        </div>
+                        <div class="film-slogan">
+                            <div class="film-slogan-static">
+                                Слоган
+                            </div>
+                            <div class="film-slogan-value">
+                                {{movie.slogan}}
+                            </div>
+                        </div>
+                        <div class="film-country color-grey">
+                            <div class="film-country-static">
+                                Страна
+                            </div>
+                            <div class="film-country-value">
+                                {{movie.country}}
+                            </div>
+                        </div>
+                        <div class="film-budget">
+                            <div class="film-budget-static">
+                                Бюджет
+                            </div>
+                            <div class="film-budget-value">
+                                {{movie.budget}}
+                            </div>
+                        </div>
+                        <div class="film-time color-grey">
+                            <div class="film-time-static">
+                                Время
+                            </div>
+                            <div class="film-time-value">
+                                {{movie.time}}
+                            </div>
+                        </div>
+                        <div class="film-premiere">
+                            <div class="film-premiere-static">
+                                Премьера
+                            </div>
+                            <div class="film-premiere-value">
+                                {{movie.premiere}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="film-description">
+                {{movie.description1}} {{movie.description2}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="leave-comment">
+        <div class="leave-comment-inside">
+            <div class="leave-comment-static">
+                 Dmitry, оставьте свой комментарий!
+            </div>
+            <div class="leave-comment-write">
+                <textarea cols="75" rows="5" placeholder="Написать сообщение..." maxlength="250"></textarea>
+            </div>
+            <div class="leave-comment-btns">
+                <div class="leave-comment-button-good">
+                    Рекомендую!
+                </div>
+                <div class="leave-comment-button-bad">
+                    Не рекомендую!
+                </div>
+                <div class="leave-comment-button-sbm">
+                    <div class="leave-comment-button-submit" ng-click="addComment()">
+                        Отправить
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comments-all">
+        <div class="comments-all-inside">
+            <div class="comments-all-static">
+                Комментарии:
+            </div>
+            <!--
+                FOR TESTING PURPOSES !
+            <div class="comments-all-comment">
+                <div class="comment-name-recommend">
+                    <div class="comment-name">
+                        Dmitry |
+                    </div>
+                    <div class="comment-recommend recommend-good">
+                        Рекомендую!
+                    </div>
+                </div>
+                <div class="comment-block-text">
+                    <div class="comment-text">
+                        Фильм конечно топ, но пересматривать бы не стал!
+                    </div>
+                </div>
+            </div>
+            <div class="comments-all-comment">
+                <div class="comment-name-recommend">
+                    <div class="comment-name">
+                        Dmitry |
+                   </div>
+                   <div class="comment-recommend recommend-bad">
+                        Не Рекомендую!
+                    </div>
+                </div>
+                <div class="comment-block-text">
+                    <div class="comment-text">
+                        На троечку пойдет!
+                    </div>
+                </div>
+            </div>
+            -->
+            <div class="comments-all-comment" ng-repeat="comment in movie.comments" >
+                <div class="comment-name-recommend">
+                    <div class="comment-name">
+                        {{comment.name}} |
+                    </div>
+                    <div class="comment-rec" ng-switch on="comment.recommend">
+                        <div class="comment-recommend recommend-good" ng-switch-when="true">
+                            Рекомендую!
+                        </div>
+                        <div class="comment-recommend recommend-bad" ng-switch-when="false">
+                            Не рекомендую!
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-block-text">
+                    <div class="comment-text">
+                        {{comment.commentary}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

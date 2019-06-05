@@ -1,0 +1,65 @@
+{
+    "path": "/static/img/film_5.jpeg",
+    "name": "Айка",
+    "slogan": "-",
+    "year": "2018",
+    "country": "Россия, Германия, Польша, Китай, Казахстан",
+    "genre": "драма",
+    "budget": "39 686 $",
+    "time": "100 мин / 01:40",
+    "premiere": "14 февраля 2019",
+    "description1": "Молодая девушка, приехавшая в холодную Москву на заработки, вынуждена оставить своего новорожденного ребенка в роддоме.",
+    "description2": " Однако вскоре ей предстоит понять, способна ли она смириться с разлукой…",
+    "comments": {
+        "comment_1": {
+            "name": "Toyota",
+            "recommend": true,
+            "commentary": "Просто тест"
+        },
+        "comment_2": {
+            "name": "Nissan",
+            "recommend": true,
+            "commentary": "Skyline"
+        },
+        "comment_3": {
+            "name": "Honda",
+            "recommend": false,
+            "commentary": "Civic"
+        },
+        "comment_4": {
+            "name": "Mitsubishi",
+            "recommend": false,
+            "commentary": "Lancer Evo"
+        },
+        "comment_5": {
+            "name": "Infinity",
+            "recommend": true,
+            "commentary": "G37"
+        },
+        "comment_6": {
+            "name": "Audi",
+            "recommend": false,
+            "commentary": "A6"
+        },
+        "comment_7": {
+            "name": "BMW",
+            "recommend": true,
+            "commentary": "x6m"
+        },
+        "comment_8": {
+            "name": "Mercedes",
+            "recommend": true,
+            "commentary": "C-classe"
+        },
+        "comment_9": {
+            "name": "Subaru (должна вообще быть на первом месте)",
+            "recommend": true,
+            "commentary": "Impreza"
+        },
+        "comment_10": {
+            "name": "АвтоВАЗ",
+            "recommend": false,
+            "commentary": "Да да, последний"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "path": "/static/img/film_3.jpeg",
+    "name": "Тобол",
+    "slogan": "Много званых, мало избранных",
+    "year": "2018",
+    "country": "Россия",
+    "genre": "история, драма",
+    "budget": "2 181 831 $",
+    "time": "108 мин / 01:48",
+    "premiere": "21 февраля 2019",
+    "description1": "Молодой офицер новой гвардии Петра I Иван Демарин по заданию царя отправляется в глубину Сибири — в пограничный Тобольск. Здесь Иван встречает свою первую любовь и вместе ",
+    "description2": "со своим полком оказывается втянутым в заговор местных князей, охотящихся за золотом Яркенда. Его крепость окружена полчищами диких джунгар и помощи ждать неоткуда…",
+    "comments": {
+        "comment_1": {
+            "name": "Имя один",
+            "recommend": true,
+            "commentary": "Ну что тут можно сказать....Бюджет есть, а смысла нет. Все как всегда, типичный российский фильм"
+        },
+        "comment_2": {
+            "name": "ИмяДва",
+            "recommend": true,
+            "commentary": "Нужно испытать длинные комментарии, прибегнем к помощи Lores ipsum! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        },
+        "comment_3": {
+            "name": "Имя_три",
+            "recommend": true,
+            "commentary": "Если выше ничего не сломалось, даже не знаю что тут написать"
+        },
+        "comment_4": {
+            "name": "Имя-четыре",
+            "recommend": true,
+            "commentary": "Ниже пустой коммент, гыгыгы"
+        },
+        "comment_5": {
+            "name": "ИмЯ_пЯтЬ",
+            "recommend": false,
+            "commentary": ""
+        }
+    }
+}
