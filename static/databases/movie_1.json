@@ -1,5 +1,5 @@
 {
-    "path": "/static/img/film_1.jpeg",
+    "path": "./static/img/film_1.jpeg",
     "name": "Балканский рубеж",
     "slogan": "Мир, за который стоит бороться",
     "year": "2019",

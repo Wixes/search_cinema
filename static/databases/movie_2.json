@@ -1,5 +1,5 @@
 {
-    "path": "/static/img/film_2.jpeg",
+    "path": "./static/img/film_2.jpeg",
     "name": "Капитан Марвел",
     "slogan": "Быстрее. Выше. Сильнее",
     "year": "2019",
