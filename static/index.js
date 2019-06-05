@@ -59,7 +59,7 @@ app.config(function($routeProvider){
 
 app.controller('filmController', function($scope, $http, $routeParams){
     var count = $routeParams.cnt;
-    db = "/static/databases/movie_" + count + ".json";
+    db = "./static/databases/movie_" + count + ".json";
     console.log('count = ', count);
     $http.get(db).then(
         function(response){
